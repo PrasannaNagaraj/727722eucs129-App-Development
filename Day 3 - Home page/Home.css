@@ -1,0 +1,129 @@
+.home-page * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-page {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  top: 10px;
+  color: #3e4af1;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 30px;
+  font-weight: initial;
+
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+.navbar-links .navbar-link{
+  color: #3e4af1;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  text-align: center;
+  padding: 150px 150px 150px;
+  background-color:#3e4af1;
+  background-image: linear-gradient(to bottom,#3e4af1,#626bde,#757bdc);
+  color: aliceblue;
+  margin-top: 80px;
+  max-height: 800px;
+}
+
+.header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 24px;
+}
+
+.features {
+  padding: 50px 20px;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size:35px;
+}
+
+.feature-list {
+  display: flex;
+  height: 900px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background-color: #dcb8b8;
+  background-image: linear-gradient(to bottom,#757ef1,#757bdc,#9fa4ff);
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+  margin-top: 10px;
+  font-size:27px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.feature-item img {
+  margin-top: 10px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+.feature-item p{
+  align-items: center;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer {
+  background-color: #00043d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
