@@ -1,0 +1,41 @@
+.requests-page {
+  padding: 16px;
+}
+
+.requests-title {
+  margin-bottom: 16px;
+}
+
+.requests-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.request-card {
+  width: 22%;
+  /* min-width: 200px; */
+  /* padding: 16px; */
+  box-sizing: border-box;
+}
+
+.request-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.approval-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.status-approved {
+  color: green;
+}
+
+.status-denied {
+  color: red;
+}

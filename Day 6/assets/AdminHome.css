@@ -1,0 +1,68 @@
+.adminhome-sidebar-content {
+    width: 250px;
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminhome-sidebar-item {
+    padding: 16px;
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: background-color 0.3s;
+    text-transform: capitalize;
+  }
+  
+  .adminhome-sidebar-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .adminhome-sidebar-item .MuiListItemIcon-root {
+    color: #1976d2;
+  }
+  
+  .adminhome-sidebar-item .MuiListItemText-primary {
+    color: #333;
+  }
+  
+  .adminhome-ProfileContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .adminhome-ProfileDropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    z-index: 1000;
+  }
+  
+  .adminhome-ProfileDropdownItem {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .adminhome-ProfileDropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .adminhome-ProfileDropdownItem:last-child {
+    border-bottom: none;
+  }
+  
+  .adminhome-content {
+    flex-grow: 1;
+    padding: 1
+  }

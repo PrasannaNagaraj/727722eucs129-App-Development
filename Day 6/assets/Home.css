@@ -1,0 +1,243 @@
+*{
+  scroll-behavior: smooth;
+}
+.home .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home .navbar-logo {
+  margin: auto;
+  left: 3%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  background-image: url('../img/logo2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}
+
+.home .navbar-title {
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 68px;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home .navbar-links {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+}
+
+.home .navbar-links .navbar-link {
+  color: #000000;
+  font-size: 25px;
+  margin-right: 32px;
+  font-family: Palatino;
+  text-decoration: none;
+}
+
+.home .navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.home .header {
+  text-align: center;
+  padding: 150px 20px;
+  background-color: #b1b6ff;
+  background-image: url("../img/bg1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  margin-top: 80px;
+}
+
+.home .header h1 {
+  font-size: 60px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.home .header p {
+  font-size: 28px;
+  font-size: bold;
+  margin-bottom: 40px;
+}
+
+.home .header .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #0010f4;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home .features {
+  padding: 70px 20px;
+  
+}
+
+.home .features h2 {
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: 35px;
+}
+
+.home .feature-list {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home .feature-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home .feature-item h3 {
+  margin-top: 10px;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.home .feature-item img {
+  margin-top: 10px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home .feature-item p {
+  font-size: 17px;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  background-image: linear-gradient(to bottom, #00346e,#0049b0,#00aaff);
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial-item {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonial-item h4 {
+  font-size: 16px;
+  color: #555;
+}
+
+.home .faqs {
+  padding: 50px 20px;
+}
+
+.home .faqs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+.home .faq-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .faq-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home .faq-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home .faq-item p {
+  font-size: 18px;
+}
+
+.home .footer {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  padding: 50px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home .footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+}
+
+.home .footer-column h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.home .footer-column ul {
+  list-style: none;
+  font-size: large;
+  padding: 0;
+}
+
+.home .footer-column ul li {
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+.home .footer-column ul li a{
+  color: rgb(0, 204, 255);
+  font-size: 14px;
+}

@@ -1,0 +1,120 @@
+.cal-calendar-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cal-calendar-view {
+    background-color: aqua;
+}
+
+.cal-app-bar {
+    background-color: #2c3e50 !important;
+}
+
+.cal-menu-button {
+    margin-right: 16px !important;
+}
+
+.cal-app-title {
+    flex-grow: 1;
+    font-size: 1.5rem !important;
+}
+
+.cal-sidebar-content {
+    width: 250px;
+}
+
+.cal-sidebar-item {
+    padding: 16px !important;
+}
+
+.cal-sidebar-item:hover {
+    background-color: #f0f0f0;
+}
+
+.cal-calendar-container {
+    flex-grow: 1;
+    padding: 24px;
+    background-color: #f8f5f5;
+}
+
+.cal-calendar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 140px) !important;
+}
+
+.cal-calendar-event {
+    background-color: #3498db !important;
+    border-radius: 4px !important;
+    color: white !important;
+    border: none !important;
+    font-size: 0.9rem !important;
+}
+
+.cal-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.cal-modal-title {
+    margin-bottom: 16px !important;
+    color: #2c3e50;
+}
+
+.cal-modal-input {
+    margin-bottom: 16px !important;
+}
+
+.cal-modal-button {
+    margin-top: 8px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .cal-calendar-container {
+        padding: 16px;
+    }
+
+    .cal-modal-content {
+        width: 90%;
+        padding: 16px;
+    }
+}
+.ProfileContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ProfileDropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .ProfileDropdownItem {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .ProfileDropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  

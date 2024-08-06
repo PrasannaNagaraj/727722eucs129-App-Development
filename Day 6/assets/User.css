@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #74abff;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+.Header h1{
+    font-family: Caudex;
+    color: rgb(39, 65, 65);
+}
+.SidebarToggleButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ProfileContainer {
+    position: relative;
+}
+
+.ProfileButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ProfileDropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.ProfileDropdownItem {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ProfileDropdownItem:hover {
+    background-color: #1976d2;
+    color: white;
+}
+
+.MainContent {
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+    padding: 20px;
+}
+
+.MainContent.shifted {
+    margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+.Card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family:  FS Me;
+}
+.Card p{
+    font-size: 24px;
+}
+
+.CardButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #408cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.CardButton:hover {
+    background-color: #155a9a;
+}
+
+/* @media (max-width: 600px) {
+    .MainContent {
+        margin-left: 0; /* Adjust for smaller screens */
+    /* } */
+/* } */ 
