@@ -1,0 +1,60 @@
+/* Sidebar.css */
+.Sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(to top, #0077ff,#9ec6ff,#ffffff);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.Sidebar.open {
+    transform: translateX(0);
+}
+
+.SidebarHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.SidebarCloseButton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.SidebarMenu {
+    padding: 10px;
+}
+
+.SidebarItem {
+    padding-top: 35px;
+    font-size: large;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.SidebarSubMenu {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.SidebarSubItem {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+}
+
+.SidebarSubItem:hover {
+    background-color: #ddd;
+}

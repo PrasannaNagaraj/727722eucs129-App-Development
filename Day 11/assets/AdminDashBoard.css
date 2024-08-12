@@ -1,0 +1,99 @@
+/* AdminDashBoard.css */
+
+.admindb-dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.admindb-dashboard-notice-board {
+  width: 40%;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #3a3f47;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #ffffff;
+}
+
+.admindb-dashboard-notice {
+  background-color: #424850;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #60656e;
+  cursor: pointer;
+}
+
+.admindb-dashboard-notice:hover {
+  background-color: #4e555d;
+}
+
+.admindb-dashboard-notice-board-header {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.admindb-post-notice-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #1976d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.admindb-post-notice-button:hover {
+  background-color: #115a9d;
+}
+
+.admindb-modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+.admindb-modal-header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.admindb-modal-input {
+  margin-bottom: 16px;
+}
+
+.admindb-modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admindb-modal-button {
+  border-radius: 5px;
+}
+
+.admindb-dialog-container {
+  background-color: #3a3f47;
+  color: #ffffff;
+}
+
+.admindb-dialog-actions button {
+  border-radius: 5px;
+}
